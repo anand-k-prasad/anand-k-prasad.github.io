@@ -1,0 +1,47 @@
+html {
+  box-sizing: border-box;
+}
+
+*,*::before, *::after {
+  box-sizing: inherit;
+}
+
+body {
+  font-family: 'Libre Franklin', serif;
+}
+
+h1, h2, h3, h4, h5, h6 {
+  font-family: 'Libre Baskerville', sans-serif;
+}
+
+p {
+  font-size: 18px;
+  color: #576574;
+  line-height: 1.5;
+  margin: 10px 0 25px;
+}
+
+h1 {
+  font-size: 64px;
+  margin: 0;
+  padding: 10px 0px;
+}
+
+.purple {
+  color: #9873B9;
+}
+
+.profile {
+  width: 100%;
+  max-width: 550px;
+  padding: 10px 20px;
+  margin: auto;
+}
+
+.profile-image {
+  width: 150px;
+  height: 150px;
+  border-radius: 50%;
+  box-shadow: 5px 10px 15px rgba(0,0,0,.1);
+  float: right;
+}
